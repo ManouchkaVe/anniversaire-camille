@@ -34,8 +34,11 @@ h2 {
     margin: 5px 10px;
   }
 
-  div.a {
-    -ms-transform: rotate(20deg); /* IE 9 */
-    transform: rotate(20deg);
+  .rotation90 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
   }
 
